@@ -81,4 +81,5 @@ Dnipro vs Everton - 2:7 on 29/2/2016 in Ukraine
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

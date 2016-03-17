@@ -1,24 +1,45 @@
 from view import *
 
+
 def england(lst):
+    """
+    Show football games wich were in England
+    :param lst:
+    :return:
+    """
     for i in lst:
         if i[0] == 'England':
             output_match(i)
 
 
 def spain(lst):
+    """
+    Show football games wich were in Spain
+    :param lst:
+    :return:
+    """
     for i in lst:
         if i[0] == 'Spain':
             output_match(i)
 
 
 def ukraine(lst):
+    """
+    Show football games wich were in Ukraine
+    :param lst:
+    :return:
+    """
     for i in lst:
         if i[0] == 'Ukraine':
             output_match(i)
 
 
 def sort_goals(arr):
+    """
+    Sort all games by increase goals
+    :param arr:
+    :return:
+    """
     mas = []
     for i in arr:
         k = i[3] + i[4]
@@ -30,7 +51,13 @@ def sort_goals(arr):
             if i == j[3] + j[4]:
                 output_match(j)
 
+
 def sort_date(arr):
+    """
+    Sort all games by date
+    :param arr:
+    :return:
+    """
     mas = []
     for i in arr:
         mas.append(i[5][0])
@@ -42,8 +69,13 @@ def sort_date(arr):
 
 
 def menu(arr):
+    """
+    Navigation in program
+    :param arr:
+    :return:
+    """
     ch = ''
-    while(ch != '6'):
+    while (ch != '6'):
         print("""
         1. England
         2. Spain
@@ -68,4 +100,3 @@ def menu(arr):
             exit()
         else:
             print('Please try again')
-
