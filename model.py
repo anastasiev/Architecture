@@ -10,3 +10,4 @@ first = [['England', 'Lester', 'Everton', 2, 0, [26, 2, 2016], 1],
          ['Ukraine', 'Vorskla', 'Everton', 2, 2, [27, 2, 2016], 10],
          ['Ukraine', 'Stal', 'Everton', 2, 6, [28, 2, 2016], 11],
          ['Ukraine', 'Dnipro', 'Everton', 2, 7, [29, 2, 2016], 12]]
+
