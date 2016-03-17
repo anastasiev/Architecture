@@ -40,6 +40,7 @@ def sort_date(arr):
             if i == j[5][0]:
                 output_match(j)
 
+
 def menu(arr):
     ch = ''
     while(ch != '6'):
