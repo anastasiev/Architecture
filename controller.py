@@ -1,6 +1,5 @@
 from view import *
 
-
 def england(lst):
     """
     Show football games wich were in England
