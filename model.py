@@ -1,6 +1,9 @@
 
 
 class Match(object):
+    """
+    Class implements info about match
+    """
     def __init__(self, country, team1, team2, res1, res2, date):
         self.country = country
         self.team1 = team1
