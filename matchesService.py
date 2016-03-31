@@ -5,6 +5,7 @@ class MatchesService(object):
     Class implements actions with matches
     """
 
+
     def getMatchByCountry(self, matches, countryName):
         """
         Find all matches in selected country
@@ -17,6 +18,7 @@ class MatchesService(object):
             if m.country == countryName:
                 res.append(m)
         return res
+
 
     def getMatchByTeam(self, matches, teamName):
         """

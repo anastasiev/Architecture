@@ -1,6 +1,5 @@
 from model import Match
 
-
 class MatchFactory(object):
     """
     Class produce list of match from hardcoded list
@@ -18,6 +17,8 @@ class MatchFactory(object):
                         ['Ukraine', 'Vorskla', 'Everton', 2, 2, [27, 2, 2016]],
                         ['Ukraine', 'Stal', 'Everton', 2, 6, [28, 2, 2016]],
                         ['Ukraine', 'Dnipro', 'Everton', 2, 7, [29, 2, 2016]]]
+
+
 
     def getAllMatches(self):
         """
